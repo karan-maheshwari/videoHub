@@ -3,9 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+    production: false,
+    firebase: {
+        apiKey: 'AIzaSyAOXjCC9iDTAX0c4cziRZ5n6Q_f0mWY_0A',
+        authDomain: 'videohub-inf551.firebaseapp.com',
+        databaseURL: 'https://videohub-inf551.firebaseio.com',
+        projectId: 'videohub-inf551',
+        storageBucket: 'videohub-inf551.appspot.com',
+        messagingSenderId: '354480822091'
+    }
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
